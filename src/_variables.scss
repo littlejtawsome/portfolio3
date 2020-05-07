@@ -1,0 +1,27 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500&family=Roboto:ital,wght@0,300;1,300;1,400&display=swap');
+
+$font-body: 'Baloo Tamma 2', cursive;
+$font-head: 'Roboto', sans-serif;
+
+$lightGray:  #bcbcbc;;
+$navy:     #051422;
+$darkGray:    #333;
+
+$white:        #fff;
+$oat:          #f1eeec;
+$lightYellow:  #fff3cd;
+$pastelBlue:   #b4d5f5;
+$blue:         #52a5f7;
+$redOrange:    #d14348;
+
+$background: $lightGray;
+$nav-hover: $redOrange;
+$boder-dark: $darkGray;
+$background-head: $pastelBlue;
+$img-border: $darkGray;
+
+nav {
+    background-color: $background;
+}

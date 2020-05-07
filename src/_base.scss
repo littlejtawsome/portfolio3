@@ -1,0 +1,169 @@
+
+$font-body: 'Baloo Tamma 2', cursive;
+$font-head: 'Roboto', sans-serif;
+
+$lightGray:  #bcbcbc;;
+$navy:    #051422;
+$darkGray:    #333;
+
+$white:       #fff;
+$oat:       #f1eeec;
+$lightYellow:  #fff3cd;
+$pastelBlue:  #b4d5f5;
+$blue:        #52a5f7;
+$redOrange:  #d14348;
+
+$background: $lightGray;
+$nav-hover: $redOrange;
+$boder-dark: $darkGray;
+$background-head: $pastelBlue;
+$img-border: $darkGray;
+ 
+// nav================================================\
+.hamburger {
+  max-width: 480px;
+  margin: auto;
+  background-color:#333;
+  height: auto;
+  
+}
+.logo {
+  margin-top:5px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+
+//wrapSlide===========================================
+.wrapSlide {
+    margin:0 auto;
+    width:300px;
+    padding-top: 15px;
+}
+
+.wrapSlide img {
+    margin-left:0;
+    width:100%;
+    height: auto;
+    padding: 10px;
+    background-color:#fff;
+    border: 1px solid $img-border;
+     margin-right: 5px;
+     padding-right: 10px;
+  }
+  ul#slides {
+    list-style-type: none;
+    width:auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  li.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  li.showing {
+    opacity: 1;/* 그림이 겹쳐보이지 않게 하기 위한 잠깐의 방편*/
+    z-index: 2;
+  }
+  
+     
+  
+  //main contents========================================
+
+  .aboutH2  {
+    margin-top:10;
+    padding-top:5px;
+    font-size: 100%;
+    color: #333;
+    background-color: $lightGray;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+   
+}
+p {
+    font-family: $font-body, sans-serif;
+    color: $background-head;
+    font-size: 90%;
+    padding-left: 10px;
+    margin-bottom: 20px;
+
+}
+.nav {
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+}
+.nav li {
+    // float: left;
+    display: block;
+    background-color:$background;
+    border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    // -webkit-border-bottom-right-radius: 0px;
+    // -webkit-border-bottom-left-radius: 0px;
+    padding: 10px;
+    margin-top:5px;
+    margin-left: 6px;
+    margin-right: 6px;
+    color: $white;
+    font-size: 80%;
+    font-family: $font-body,serif;
+    text-align:center;
+}
+.nav li a {
+    color: $blue;
+    text-decoration: none;
+    margin-top:-10px;
+    background-color: $background-head;
+}
+.nav li a:hover {
+    color: $nav-hover;
+    // margin-top:-10px;
+    
+}
+.nav .navHover {
+    background: $blue;
+    background-color:$lightYellow;
+    margin-top:-10px;
+    padding-top:10px;
+}
+
+.galPic {
+    padding: 15px;
+    background-color:$white;
+    border: 1px solid $img-border;
+    margin-left: 80px;
+}
+.mainContent .about .photoshop .fewd .illustration {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+ }
+ 
+
+ //==contact==================================
+ .cContainer {
+    box-sizing: border-box;
+    width: auto;
+    margin:0;
+    padding:0;
+}
+
+  
+  .cContainer {
+    border-radius: 5px;
+    background-color: $background;
+    padding: 20px;
+  }

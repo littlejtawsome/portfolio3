@@ -1,0 +1,108 @@
+$font-body: 'Baloo Tamma 2', cursive;
+$font-head: 'Roboto', sans-serif;
+
+$lightGray:  #bcbcbc;;
+$navy:    #051422;
+$darkGray:    #333;
+
+$white:       #fff;
+$oat:       #f1eeec;
+$lightYellow:  #fff3cd;
+$pastelBlue:  #b4d5f5;
+$blue:        #52a5f7;
+$redOrange:  #d14348;
+
+$background: $lightGray;
+$nav-hover: $redOrange;
+$boder-dark: $darkGray;
+$background-head: $pastelBlue;
+$img-border: $darkGray;
+
+nav {
+    overflow: hidden;
+    position: relative;
+    }
+  
+  .navigation {
+    display: none;
+  }
+  
+  
+  
+  .h_icon {
+    background: black;
+    display: block;
+    position: absolute;
+    margin-right: 0;
+    margin-top: 0;
+  }
+  
+  nav a:hover {
+    // background-color: pink;
+    padding-right:10px;;
+    color: $nav-hover;
+  }
+  
+  nav a {
+    border-bottom: 1px solid #fff;
+  }
+  
+  nav
+      ul{
+      margin:0;
+      padding:0x;
+      
+        li{
+            display:flex;
+            align-items:center;
+            background-color: $background;
+            text-align: center;  
+         }
+        a{
+            color: $white;
+            font: 1rem $font-body;
+            height:40px;
+            padding-top:5px;
+            text-decoration: none;
+            width:100%;
+            border-bottom: 1px solid #fff;
+            
+            
+        }
+      }
+  ul.navigation {
+      display: flex;
+      flex-direction: column;
+      margin-top:0;
+      padding-top:0;
+      font-size:1.5em;
+   }
+   .mainMenu {
+      margin-top: 0;
+      padding-top: 0;
+  }
+  
+  footer a:hover {
+      color: $background-head;
+     }
+  footer p {
+      color: #333;
+      font-size: 1rem;
+      margin-left: auto;
+      margin-bottom:5px;
+      text-align:center;
+  }
+  
+  .icon{
+      margin-left: auto; 
+      padding-right:10px;
+      height: 30px;
+      text-align:center;
+     }
+  .icon a { 
+      display: inline-block;
+      padding-right:10px;
+  }
+  
+  
+  
